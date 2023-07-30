@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "Peter Focus",
+    "version": "1.0",
+    "description": "Focus with Peter.",
+    "icons": {
+        "16": "images/logo@16px.png",
+        "32": "images/logo@32px.png",
+        "48": "images/logo@48px.png",
+        "128": "images/logo@128px.png"
+    },
+    "action": {
+        "default_popup": "content/popup.html"
+    },
+    "content_scripts": [
+        {
+          "js": ["scripts/content.js", "scripts/popup.js"],
+          "matches": [
+            "https://*/*"
+          ]
+        }
+    ],
+      "externally_connectable": {
+        "matches": ["https://*/*"]
+    }
+}
