@@ -4,8 +4,8 @@ const videos = [
     "https://tiktokextension.s3.amazonaws.com/subway.mp4",
     "https://tiktokextension.s3.amazonaws.com/sand.mp4",
     "https://tiktokextension.s3.amazonaws.com/press.mp4",
-    "https://mcdonalds.us.com/minecraft.mp4",
-    "https://mcdonalds.us.com/peter.mp4",
+    "https://r2.mcdonalds.us.com/minecraft.mp4",
+    "https://r2.mcdonalds.us.com/peter.mp4",
 ]
 
 let selectedVideo = videos[Math.floor(Math.random() * videos.length)]
